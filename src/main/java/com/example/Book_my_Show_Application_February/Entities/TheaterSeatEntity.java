@@ -23,4 +23,8 @@ public class TheaterSeatEntity
     @ManyToOne
     @JoinColumn
     private TheaterEntity theaterEntity;
+
+    @ManyToOne
+    @JoinColumn
+    private MovieEntity movieEntity;
 }

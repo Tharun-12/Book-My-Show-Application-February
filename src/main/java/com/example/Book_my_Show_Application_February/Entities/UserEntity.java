@@ -34,5 +34,5 @@ public class UserEntity
 
 
     @OneToMany(mappedBy = "userEntity" ,cascade = CascadeType.ALL)
-    private List<TicketEntity> bookedTickets;
+    private List<TicketEntity> bookedTickets = new ArrayList<>();
 }
